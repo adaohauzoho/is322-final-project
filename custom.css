@@ -139,7 +139,7 @@ margin:10px auto 20px auto;
 }
 #choisir_restau .choice_list a{
 padding-top:10px;
-color:rgb(63, 41, 39);
+color:rgb(63, 41, 39); 
 }
 
 #choisir_restau .classement{
@@ -172,13 +172,13 @@ width:99px;
 /** restau **/
 #restau_infos,
 #contact_infos {
-color:rgb(63, 41, 39);
+color:rgb(208, 201, 201);
 font-size:14px;
 }
 #restau_infos h1,
 #contact_infos h2,
 #notation h2{
-color:rgb(63, 41, 39);
+color:rgb(208, 201, 201);
 font-size:18px;
 margin:0 auto 5px auto;
 }

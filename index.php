@@ -30,13 +30,13 @@
 	<h1> Step 1. | What type of event are you planning? </h1>
 	
 	<ul data-role="listview" data-inset="true" >
-	<li><a href="choose_cuisine.html" data-transition="slidedown"> <h3> Baby Shower</h3></a></li>
-	<li><a href="choose_cuisine.html"  data-transition="slidedown"><h3> Bridal Shower </h3></a></li>
-	<li><a href="choose_cuisine.html"  data-transition="slidedown"> <h3> Bar Mitvah</h3></a></li>
-	<li><a href="choose_cuisine.html"  data-transition="slidedown"> <h3> Backyard BBQ</h3></a></li>
-	<li><a href="choose_cuisine.html"  data-transition="slidedown"> <h3> Business Meeting</h3></a></li>
-	<li><a href="choose_cuisine.html"  data-transition="slidedown"> <h3> Graduation Party</h3></a></li>
-	<li><a href="choose_cuisine.html"  data-transition="slidedown"> <h3> Wedding Shower </h3></a></li>	
+	<li><a href="choose_cuisine.html" data-transition="slide"> <h3> Baby Shower</h3></a></li>
+	<li><a href="choose_cuisine.html"  data-transition="slide"><h3> Bridal Shower </h3></a></li>
+	<li><a href="choose_cuisine.html"  data-transition="slide"> <h3> Bar Mitvah</h3></a></li>
+	<li><a href="choose_cuisine.html"  data-transition="slide"> <h3> Backyard BBQ</h3></a></li>
+	<li><a href="choose_cuisine.html"  data-transition="slide"> <h3> Business Meeting</h3></a></li>
+	<li><a href="choose_cuisine.html"  data-transition="slide"> <h3> Graduation Party</h3></a></li>
+	<li><a href="choose_cuisine.html"  data-transition="slide"> <h3> Wedding Shower </h3></a></li>	
 	</ul>	
 	
 	</div>
