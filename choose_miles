@@ -1,0 +1,78 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+	 <meta charset="UTF-8">
+	<title>Welcome to CATEr</title> 
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<link rel="stylesheet" href="jquery.mobile.structure-1.0.1.css" />
+	<link rel="apple-touch-icon" href="images/launch_icon_57.png" />
+	<link rel="apple-touch-icon" sizes="72x72" href="images/launch_icon_72.png" />
+	<link rel="apple-touch-icon" sizes="114x114" href="images/launch_icon_114.png" />
+	<link rel="stylesheet" href="jquery.mobile-1.0.1.css" />
+	<link rel="stylesheet" href="custom.css" />
+	<script src="js/jquery-1.7.1.min.js"></script>
+	<script src="js/jquery.mobile-1.0.1.min.js"></script>
+</head> 
+<body> 
+<div id="choisir_ville" data-role="page" data-add-back-btn="true">
+	
+	<div data-role="header"> 
+		<h1> Restaurant Picker</h1>
+	</div> 
+
+	<div data-role="content">
+	
+	<div class="choice_list"> 
+	<h1> How many miles from your location??</h1>
+	
+	<p id="demo">Click the button to get your position.</p>
+
+<button onclick="getLocation()">Click to give us your coordinates</button>
+
+<div id="mapholder"></div>
+
+<script>
+var x = document.getElementById("demo");
+
+function getLocation() {
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(showPosition, showError);
+    } else {
+        x.innerHTML = "Geolocation is not supported by this browser.";
+    }
+}
+
+function showPosition(position) {
+    var latlon = position.coords.latitude + "," + position.coords.longitude;
+
+    var img_url = "http://maps.googleapis.com/maps/api/staticmap?center="
+    +latlon+"&zoom=14&size=400x300&sensor=false";
+    document.getElementById("mapholder").innerHTML = "<img src='"+img_url+"'>";
+}
+
+function showError(error) {
+    switch(error.code) {
+        case error.PERMISSION_DENIED:
+            x.innerHTML = "User denied the request for Geolocation."
+            break;
+        case error.POSITION_UNAVAILABLE:
+            x.innerHTML = "Location information is unavailable."
+            break;
+        case error.TIMEOUT:
+            x.innerHTML = "The request to get user location timed out."
+            break;
+        case error.UNKNOWN_ERROR:
+            x.innerHTML = "An unknown error occurred."
+            break;
+    }
+}
+</script>
+
+	</ul>
+	</div>
+	
+	</div>
+
+</div><!-- /page -->
+</body>
+</html>

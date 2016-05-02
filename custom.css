@@ -1,6 +1,6 @@
 /*** general styling */
 .ui-page.ui-body-c{
-background:url(images/bg.png);
+background:url(images/bg1.png);
 box-shadow:  0px 0px 30px 5px rgba(107, 105, 105, 0.3) inset,
  0px 0px 0px 1px rgba(107, 105, 105, 0.4) inset;
 
@@ -83,7 +83,7 @@ box-shadow:none;
 /*** home **/
 
 #branding{
-background:url(images/logo.png) no-repeat;
+background:url(images/main_logo.png) no-repeat;
 width:322px;
 height:165px;
 text-indent:-999px;
