@@ -27,7 +27,7 @@
 	</div>
 	
 	<div class="choice_list"> 
-	<h1> What type of event are you planning? </h1>
+	<h1> Step 1. | What type of event are you planning? </h1>
 	
 	<ul data-role="listview" data-inset="true" >
 	<li><a href="choose_cuisine.html" data-transition="slidedown"> <h3> Baby Shower</h3></a></li>

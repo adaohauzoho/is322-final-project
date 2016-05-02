@@ -2,7 +2,7 @@
 <html> 
 <head> 
 	<meta charset="UTF-8">
-	<title>Restaurant Picker</title> 
+	<title> Welcome to CATEr</title> 
 	<meta name="viewport" content="width=device-width, initial-scale=1"> 
 	<link rel="stylesheet" href="jquery.mobile.structure-1.0.1.css" />
 	<link rel="apple-touch-icon" href="images/launch_icon_57.png" />
@@ -12,6 +12,9 @@
 	<link rel="stylesheet" href="custom.css" />
 	<script src="js/jquery-1.7.1.min.js"></script>
 	<script src="js/jquery.mobile-1.0.1.min.js"></script>
+	<script src="js/libs/underscore-min.js" type="text/javascript"></script>
+	<script src="js/libs/backbone-min.js" type="text/javascript"></script>
+
 </head> 
 <body> 
 <div id="restau" data-role="page" data-add-back-btn="true">
@@ -23,18 +26,21 @@
 	<div data-role="content">
 	<div class="ui-grid-a" id="restau_infos">	
 		<div class="ui-block-a">
-		<h1> Le Mouffetard</h1>
-		<p><strong>  Restaurant bar in the center of Strasbourg</strong></p>
+		<h1> Lagos Spot</h1>
+		<p><strong>  Nigerian themed resturant in Downtown Newark</strong></p>
 		<p> On the menu: </p>
 			<ul> 
-				<li> Milkshake with chocolat</li>
-				<li> Planchettes </li>
-				<li> Leek pie </li>
+				<li> Jollof Rice</li>
+				<li> Pepper Soup</li>
+				<li> Fried Plantain </li>
+				<li> Egusi & Pounded Yam </li>
+				<li> Puff Puff </li>
+				<li> Meat Pie </li>
 			</ul>			
 		</div>		
 		<div class="ui-block-b">
-		<p><img src="restau01.jpg" alt="jeannette photo"/></p>
-		<p><a href="http://www.google.fr" rel="external" data-role="button"> See our website</a></p>
+		<p><img src="restau001.jpg" alt="Steamed Moi-Moi"/></p>
+		<p><a href="http://www.yelp.com/biz/lagos-spot-newark" rel="external" data-role="button"> See us on Yelp!</a></p>
 		</div>
 	</div><!-- /grid-a -->
 	<hr/>
@@ -42,16 +48,16 @@
 	<div class="ui-grid-a" id="contact_infos">	
 		<div class="ui-block-a">
 		<h2> Contact us</h2>
-		<p>30 Rue des Tonneliers</p>
-		<p> 67000 Strasbourg	</p>		
+		<p>266 Mulberry Street</p>
+		<p> Newark, NJ 07102</p>		
 		</div>		
 		<div class="ui-block-b">
 		<img src="01_maps.jpg" alt="plan jeanette"/>
 		</div>
 	</div><!-- /grid-a -->
 	<div id="contact_buttons">	
-		<a href="http://maps.google.fr/maps?q=jeannette+et+les+cycleux&hl=fr&sll=46.75984,1.738281&sspn=10.221882,18.764648&hq=jeannette+et+les+cycleux&t=m&z=13&iwloc=A" data-role="button" data-icon="maps"> Find us on Google Maps </a> 	
-		<a href="tel:0388161072"  data-role="button" data-icon="tel"> Call us </a>	
+		<a href="https://www.google.com/maps/uv?hl=en&pb=!1s0x89c2537632d04cf5:0x90abe5002b02df73!2m5!2m2!1i80!2i80!3m1!2i100!3m1!7e115!4s/maps/place/lagos%2Bspot/@40.72987,-74.1719629,3a,75y,118.26h,90t/data%3D*213m4*211e1*213m2*211sMjeLY0z4f9OwVUnc0AHLRg*212e0*214m2*213m1*211s0x0:0x90abe5002b02df73!5slagos+spot+-+Google+Search&imagekey=!1e2!2sMjeLY0z4f9OwVUnc0AHLRg&sa=X&ved=0ahUKEwjjjtuiwrzMAhVLn4MKHTAMC28Qpx8IczAO" data-role="button" data-icon="maps"> Find us on Google Maps </a> 	
+		<a href="tel:8629026992"  data-role="button" data-icon="tel"> Call us</a>	
 	</div>	
 	<hr/>
 	
