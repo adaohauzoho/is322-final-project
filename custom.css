@@ -1,6 +1,6 @@
 /*** general styling */
 .ui-page.ui-body-c{
-background:url(images/bg1.png);
+background:url(images/bg.png);
 box-shadow:  0px 0px 30px 5px rgba(107, 105, 105, 0.3) inset,
  0px 0px 0px 1px rgba(107, 105, 105, 0.4) inset;
 
@@ -62,7 +62,7 @@ background:url(images/header_bg.png);
 .ui-header .ui-title {
 text-indent:-9999px;
 font-size:0px;
-background:url(images/header_logo.png) no-repeat 69% 5px ;
+background:url(images/header_logo_1.png) no-repeat 69% 5px ;
 height:33px;
 padding:5px 0 5px 50px;
 margin:0px;
@@ -84,7 +84,8 @@ box-shadow:none;
 
 #branding{
 background:url(images/main_logo.png) no-repeat;
-
+width:322px;
+height:165px;
 text-indent:-999px;
 font-size:0px;
 margin:-10px auto 0 auto;
