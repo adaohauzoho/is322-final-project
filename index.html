@@ -13,6 +13,8 @@
 	<link rel="stylesheet" href="custom.css" />
 	<script src="js/jquery-1.7.1.min.js"></script>
 	<script src="js/jquery.mobile-1.0.1.min.js"></script>
+	<script src="js/libs/underscore-min.js" type="text/javascript"></script>
+	<script src="js/libs/backbone-min.js" type="text/javascript"></script>
 </head> 
 
 <body> 
