@@ -2,10 +2,12 @@ app = app || {};
 
 app.views.Person = Backbone.View.extend({
 	tagName: 'li',
+
 	attributes: function() {
 		return {
 			class: 'person ' + this.model.get('type')
 		};
+
 	},
 
 	events: {
@@ -15,16 +17,23 @@ app.views.Person = Backbone.View.extend({
 	template: _.template($('#person-template').html()),
 
 	render: function() {
-		this.$el.html(this.template(this.model.toJSON()));
-		return this;
-	},
+		
+		this.$el.html(this.template(this.model.toJSON(());
+
+		return this{
+
+		};
+
+	}))),
 
 	showDetails: function(e) {
 		$(e.target).toggleClass('active');
 		$(e.target).siblings('.details').slideToggle('fast');
-	}
+	},
 
-	app.views.People = Backbone.View.extend({
+});
+
+app.views.People = Backbone.View.extend({
 
 	el: '#wrapper',
 	
@@ -46,7 +55,6 @@ app.views.Person = Backbone.View.extend({
 		var newperson = new app.views.Person({
 			model: person
 		});
-		$('#listing').append(newperson.render().el);
+		$('#listing').append(newperson.render().el),
 
-	},
-});
+}),
