@@ -8,6 +8,7 @@ This version of the app shows the user case scenario of a chef/caterer/ or perso
 checking the system for information on certain customers. Admin users are able to sort/filter the database
 using budget or type of cuisine.
 
-In order to present a deilverable for the IS322 final project, I followed a tutorial by Stephanie Walter
+In order to present a deilverable for the IS322 final project, I followed a tutorial by Stephanie Walter.
+I customized her codes and templates to fit my app's needs. 
 
 Link: http://www.noupe.com/development/jquery-mobile-tutorial-creating-a-restaurant-picker-web-app.html
